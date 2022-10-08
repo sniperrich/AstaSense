@@ -1,0 +1,507 @@
+﻿  dll.cpp
+  autowall.cpp
+  slowwalk.cpp
+  grenade_warning.cpp
+  animation_system.cpp
+  local_animations.cpp
+  resolver.cpp
+  setup_bones.cpp
+  backtrack.cpp
+  legitbot.cpp
+  airstrafe.cpp
+  bunnyhop.cpp
+  fakelag.cpp
+  key_binds.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(679,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file BASS\dll.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(675): message : while compiling class template member function 'std::fpos<_Mbstatet> std::basic_istream<char,std::char_traits<char>>::tellg(void)' (compiling source file BASS\dll.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\BASS\dll.cpp(698): message : see reference to function template instantiation 'std::fpos<_Mbstatet> std::basic_istream<char,std::char_traits<char>>::tellg(void)' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(715): message : see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled (compiling source file BASS\dll.cpp)
+  logs.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\autowall\autowall.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\autowall\autowall.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\autowall\autowall.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\autowall\autowall.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\bunnyhop.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\bunnyhop.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\bunnyhop.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\bunnyhop.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\airstrafe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\airstrafe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\airstrafe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\airstrafe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\fakelag.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\fakelag.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\fakelag.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\lagcompensation\setup_bones.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\lagcompensation\setup_bones.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\fakelag.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\lagcompensation\setup_bones.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\lagcompensation\setup_bones.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\key_binds.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\key_binds.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\key_binds.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\key_binds.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\lagcompensation\animation_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\lagcompensation\animation_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\lagcompensation\animation_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\lagcompensation\animation_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\fakewalk\slowwalk.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\fakewalk\slowwalk.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\fakewalk\slowwalk.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\fakewalk\slowwalk.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\lagcompensation\local_animations.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\lagcompensation\local_animations.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\lagcompensation\local_animations.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\lagcompensation\local_animations.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\lagcompensation\resolver.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\lagcompensation\resolver.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\lagcompensation\resolver.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\lagcompensation\resolver.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\grenade project\grenade_warning.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\grenade project\grenade_warning.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\grenade project\grenade_warning.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\grenade project\grenade_warning.cpp)
+  misc.cpp
+  prediction_system.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\logs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\logs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\logs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\logs.cpp)
+  simulation.cpp
+  spammers.cpp
+  GameData.cpp
+  PostProccessing.cpp
+  aim.cpp
+  antiaim.cpp
+  knifebot.cpp
+  zeusbot.cpp
+  tickbase_shift.cpp
+  bullet_tracers.cpp
+  dormant_esp.cpp
+  GrenadePrediction.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\simulation.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\simulation.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\simulation.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\simulation.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\spammers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\spammers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\spammers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\spammers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\prediction_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\prediction_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\prediction_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\prediction_system.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\postprocessing\GameData.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\postprocessing\GameData.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\postprocessing\GameData.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\postprocessing\GameData.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\ragebot\antiaim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\ragebot\antiaim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\ragebot\antiaim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\ragebot\antiaim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\misc\misc.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\misc\misc.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\misc\misc.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\misc\misc.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\ragebot\knifebot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\ragebot\knifebot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\ragebot\knifebot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\ragebot\knifebot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\ragebot\aim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\ragebot\aim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\ragebot\aim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\ragebot\aim.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\bullet_tracers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\bullet_tracers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\bullet_tracers.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\bullet_tracers.cpp)
+  hitchams.cpp
+  nightmode.cpp
+  other_esp.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\ragebot\zeusbot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\ragebot\zeusbot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\ragebot\zeusbot.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\ragebot\zeusbot.cpp)
+  player_esp.cpp
+  world_esp.cpp
+  configs.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\dormant_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\dormant_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\dormant_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\dormant_esp.cpp)
+  aes256.cpp
+  Config.cpp
+  DiscordRpc.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\GrenadePrediction.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\GrenadePrediction.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\GrenadePrediction.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\GrenadePrediction.cpp)
+  connection_win.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1099,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file Configuration\aes256.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1198): message : see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Insert_range<unsigned char*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=unsigned char,
+              _Iter=unsigned char *
+          ] (compiling source file Configuration\aes256.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1198): message : see reference to function template instantiation 'void std::vector<unsigned char,std::allocator<unsigned char>>::_Insert_range<unsigned char*>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter,std::forward_iterator_tag)' being compiled
+          with
+          [
+              _Ty=unsigned char,
+              _Iter=unsigned char *
+          ] (compiling source file Configuration\aes256.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\Configuration\aes256.cpp(181): message : see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=unsigned char,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>
+          ]
+C:\Users\Home\Desktop\reprepo\ltd new source\Configuration\aes256.cpp(181): message : see reference to function template instantiation 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Iter,_Iter)' being compiled
+          with
+          [
+              _Ty=unsigned char,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned char>>>
+          ]
+  discord_register_win.cpp
+  discord_rpc.cpp
+  rpc_connection.cpp
+  serialization.cpp
+  hooks.cpp
+  hooked_beginframe.cpp
+  hooked_createmove.cpp
+  hooked_dme.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(867,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file Configuration\Config.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(282): message : see reference to function template instantiation 'std::basic_istream<char,std::char_traits<char>> &std::operator >><char,std::char_traits<char>>(std::basic_istream<char,std::char_traits<char>> &,_Elem &)' being compiled
+          with
+          [
+              _Elem=char
+          ] (compiling source file Configuration\Config.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(280): message : while compiling class template member function 'void std::istream_iterator<char,char,std::char_traits<char>,ptrdiff_t>::_Getval(void)' (compiling source file Configuration\Config.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\iterator(245): message : see reference to function template instantiation 'void std::istream_iterator<char,char,std::char_traits<char>,ptrdiff_t>::_Getval(void)' being compiled (compiling source file Configuration\Config.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\Configuration\Config.cpp(81): message : see reference to class template instantiation 'std::istream_iterator<char,char,std::char_traits<char>,ptrdiff_t>' being compiled
+  hooked_drawfog.cpp
+  hooked_events.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\hitchams.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\hitchams.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\hitchams.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\hitchams.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\player_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\player_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\player_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\player_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\nightmode.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\nightmode.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\nightmode.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\nightmode.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\other_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\other_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\other_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\other_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file cheats\visuals\world_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file cheats\visuals\world_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file cheats\visuals\world_esp.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file cheats\visuals\world_esp.cpp)
+  hooked_findmdl.cpp
+  hooked_fsn.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(130,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file configs\configs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(114): message : while compiling class template member function 'bool std::basic_istream<char,std::char_traits<char>>::_Ipfx(bool)' (compiling source file configs\configs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(101): message : see reference to function template instantiation 'bool std::basic_istream<char,std::char_traits<char>>::_Ipfx(bool)' being compiled (compiling source file configs\configs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\istream(715): message : see reference to class template instantiation 'std::basic_istream<char,std::char_traits<char>>' being compiled (compiling source file configs\configs.cpp)
+  hooked_getmaterial.cpp
+  hooked_ishltv.cpp
+  hooked_listleavesinbox.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_beginframe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_beginframe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_beginframe.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_beginframe.cpp)
+  hooked_lockcursor.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_dme.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_dme.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_dme.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_dme.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_createmove.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_createmove.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_createmove.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_createmove.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_drawfog.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_drawfog.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_drawfog.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_drawfog.cpp)
+  hooked_overrideview.cpp
+  hooked_painttraverse.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_events.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_events.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_events.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_events.cpp)
+  hooked_postscreeneffects.cpp
+  hooked_runcommand.cpp
+  hooked_sceneend.cpp
+  hooked_senddatagram.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_findmdl.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_findmdl.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_findmdl.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_findmdl.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_ishltv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_ishltv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_ishltv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_ishltv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_getmaterial.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_getmaterial.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_getmaterial.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_getmaterial.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_listleavesinbox.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_listleavesinbox.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_listleavesinbox.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_listleavesinbox.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_fsn.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_fsn.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_fsn.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_fsn.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_lockcursor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_lockcursor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_lockcursor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_lockcursor.cpp)
+  hooked_player.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_overrideview.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_overrideview.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_overrideview.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_overrideview.cpp)
+  hooked_isconnected.cpp
+  hooked_trace.cpp
+  Render.cpp
+  vfunc_hook.cpp
+  code_editor.cpp
+  imgui.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_runcommand.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_runcommand.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_runcommand.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_runcommand.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_painttraverse.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_painttraverse.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_painttraverse.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_painttraverse.cpp)
+  imgui_demo.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_postscreeneffects.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_postscreeneffects.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_postscreeneffects.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_postscreeneffects.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_sceneend.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_sceneend.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_sceneend.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_sceneend.cpp)
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_senddatagram.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_senddatagram.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_senddatagram.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_senddatagram.cpp)
+  Clua.cpp
+  CLuaHook.cpp
+  main.cpp
+  clip.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1474,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file ImGui\code_editor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1463): message : while compiling class template member function 'void std::vector<std::string,std::allocator<std::string>>::_Reallocate_exactly(const unsigned int)' (compiling source file ImGui\code_editor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1547): message : see reference to function template instantiation 'void std::vector<std::string,std::allocator<std::string>>::_Reallocate_exactly(const unsigned int)' being compiled (compiling source file ImGui\code_editor.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\Configuration\Config.h(30): message : see reference to class template instantiation 'std::vector<std::string,std::allocator<std::string>>' being compiled (compiling source file ImGui\code_editor.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_isconnected.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_isconnected.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_isconnected.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_isconnected.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\vfunc_hook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\vfunc_hook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\vfunc_hook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\vfunc_hook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_trace.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_trace.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_trace.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_trace.cpp)
+  clip_win.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file hooks\hooks\hooked_player.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file hooks\hooks\hooked_player.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file hooks\hooks\hooked_player.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file hooks\hooks\hooked_player.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file ImGui\imgui.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file ImGui\imgui.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file ImGui\imgui.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file ImGui\imgui.cpp)
+  Menu.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file lua\CLuaHook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : see reference to function template instantiation 'std::unique_ptr<char [],std::default_delete<char []>> *std::vector<std::unique_ptr<char [],std::default_delete<char []>>,std::allocator<std::unique_ptr<char [],std::default_delete<char []>>>>::_Emplace_reallocate<_Ty>(std::unique_ptr<char [],std::default_delete<char []>> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=char *
+          ] (compiling source file lua\CLuaHook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): message : see reference to function template instantiation 'std::unique_ptr<char [],std::default_delete<char []>> *std::vector<std::unique_ptr<char [],std::default_delete<char []>>,std::allocator<std::unique_ptr<char [],std::default_delete<char []>>>>::_Emplace_reallocate<_Ty>(std::unique_ptr<char [],std::default_delete<char []>> *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=char *
+          ] (compiling source file lua\CLuaHook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<char*>(char *&&)' being compiled
+          with
+          [
+              _Ty=std::unique_ptr<char [],std::default_delete<char []>>
+          ] (compiling source file lua\CLuaHook.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<char*>(char *&&)' being compiled
+          with
+          [
+              _Ty=std::unique_ptr<char [],std::default_delete<char []>>
+          ] (compiling source file lua\CLuaHook.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\lua\sol.hpp(21469): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<char*>(char *&&)' being compiled
+          with
+          [
+              _Ty=std::unique_ptr<char [],std::default_delete<char []>>
+          ] (compiling source file lua\CLuaHook.cpp)
+  Framework.cpp
+  RawData.cpp
+  Renderer.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file ImGui\imgui_draw.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file ImGui\imgui_draw.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file ImGui\imgui_draw.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file ImGui\imgui_draw.cpp)
+  item_definitions.cpp
+  SkinChanger.cpp
+  Platform.cpp
+  custom_sounds.cpp
+  Vector2D.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file ImGui\imgui_widgets.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file ImGui\imgui_widgets.cpp)
+  Vector4D.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file ImGui\imgui_widgets.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file ImGui\imgui_widgets.cpp)
+  VMatrix.cpp
+  Memory.cpp
+  characterset.cpp
+  checksum_crc.cpp
+  checksum_md5.cpp
+  Color.cpp
+  Convar.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(1007): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file main.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1474,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file lua\Clua.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1463): message : while compiling class template member function 'void std::vector<uint8_t,std::allocator<uint8_t>>::_Reallocate_exactly(const unsigned int)' (compiling source file lua\Clua.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(1547): message : see reference to function template instantiation 'void std::vector<uint8_t,std::allocator<uint8_t>>::_Reallocate_exactly(const unsigned int)' being compiled (compiling source file lua\Clua.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\lua\HTTPRequest.hpp(378): message : see reference to class template instantiation 'std::vector<uint8_t,std::allocator<uint8_t>>' being compiled (compiling source file lua\Clua.cpp)
+  threadtools.cpp
+  UtlBuffer.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(852,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(816): message : see reference to function template instantiation 'std::filesystem::_Find_file_handle *std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::_Emplace_reallocate<_Ty>(std::filesystem::_Find_file_handle *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(825): message : see reference to function template instantiation 'std::filesystem::_Find_file_handle *std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::_Emplace_reallocate<_Ty>(std::filesystem::_Find_file_handle *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(902): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(904): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<_Ty>(_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(918): message : see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<std::filesystem::_Find_file_handle>(std::filesystem::_Find_file_handle &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\vector(916): message : while compiling class template member function 'void std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::push_back(_Ty &&)'
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\filesystem(2826): message : see reference to function template instantiation 'void std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>::push_back(_Ty &&)' being compiled
+          with
+          [
+              _Ty=std::filesystem::_Find_file_handle
+          ] (compiling source file Menu\MenuFramework\Renderer.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\filesystem(2744): message : see reference to class template instantiation 'std::vector<std::filesystem::_Find_file_handle,std::allocator<std::filesystem::_Find_file_handle>>' being compiled (compiling source file Menu\MenuFramework\Renderer.cpp)
+  UtlString.cpp
+  structs.cpp
+  csgo.cpp
+  ctx.cpp
+  draw_manager.cpp
+  math.cpp
+  md5.cpp
+  netmanager.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file Menu\MenuFramework\Framework.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file Menu\MenuFramework\Framework.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file Menu\MenuFramework\Framework.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file Menu\MenuFramework\Framework.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file Menu\Menu.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file Menu\Menu.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file Menu\Menu.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file Menu\Menu.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file nSkinz\SkinChanger.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file nSkinz\SkinChanger.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file nSkinz\SkinChanger.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file nSkinz\SkinChanger.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(506,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\md5.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(5256): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::_Insert_string<char,std::char_traits<char>,unsigned int>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *const ,const _SizeT)' being compiled
+          with
+          [
+              _Elem=char,
+              _SizeT=unsigned int
+          ] (compiling source file utils\md5.cpp)
+C:\Users\Home\Desktop\reprepo\ltd new source\utils\md5.cpp(322): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>,std::allocator<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' being compiled
+  recv.cpp
+  sha-256.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file sdk\misc\Convar.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file sdk\misc\Convar.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file sdk\misc\Convar.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file sdk\misc\Convar.cpp)
+  twofish.cpp
+  util.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\csgo.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\csgo.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\csgo.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\csgo.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\math.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\math.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\math.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\math.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\netmanager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\netmanager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\netmanager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\netmanager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\ctx.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\ctx.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\ctx.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\ctx.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file sdk\structs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file sdk\structs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file sdk\structs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file sdk\structs.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\draw_manager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\draw_manager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\draw_manager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\draw_manager.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\recv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\recv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\recv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\recv.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(562,1): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (compiling source file utils\util.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(555): message : while compiling class template member function 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' (compiling source file utils\util.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(103): message : see reference to function template instantiation 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::flush(void)' being compiled (compiling source file utils\util.cpp)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\ostream(671): message : see reference to class template instantiation 'std::basic_ostream<char,std::char_traits<char>>' being compiled (compiling source file utils\util.cpp)
+     Creating library C:\Users\Home\Desktop\reprepo\ltd new source\build\gs.lib and object C:\Users\Home\Desktop\reprepo\ltd new source\build\gs.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 24036 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+detours.lib(detours.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(detours.obj)' or at 'C:\Users\Home\Desktop\reprepo\ltd new source\build\detours.pdb'; linking object as if no debug info
+detours.lib(disasm.obj) : warning LNK4099: PDB 'detours.pdb' was not found with 'detours.lib(disasm.obj)' or at 'C:\Users\Home\Desktop\reprepo\ltd new source\build\detours.pdb'; linking object as if no debug info
+  Cheat.vcxproj -> C:\Users\Home\Desktop\reprepo\ltd new source\build\gs.dll
