@@ -444,6 +444,8 @@ void CMenu::Draw() {
 		ui::EndChild();
 	}
 	if (this->m_nCurrentTab == 2) {
+		ui::BeginChild("AstaSense", { Vec2(0, 0), Vec2(3, 10) });
+		ui::EndChild();
 	}
 
 	if (this->m_nCurrentTab == 3) {
